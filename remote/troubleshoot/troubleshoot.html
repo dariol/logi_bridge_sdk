@@ -1,0 +1,42 @@
+<div class="faq-question" tabindex="-1">I'm getting a message about the Vive Camera needing to be enabled.</div>
+<div class="faq-answer" tabindex="-1">
+	<ul style="margin-left:-15pt;">
+		<li>The camera on your HTC Vive HMD may be disabled. In the SteamVR desktop app menu, click Settings > Camera > Enable Camera.</li><br/>
+		<li>Sometimes, the HTC Vive camera is enabled but not available. Restarting SteamVR or disconnecting/reconnecting the Vive HMD camera usually works for us, but check SteamVR Troubleshooting for other, more up-to-date solutions.</li><br/>
+		<li>Close Bridge SW (System Tray > Right Click Bridge Icon > Quit) and restart.</li>
+	</ul>
+</div>
+
+<div class="faq-question" tabindex="-1">How can I re-run the Bridge Setup?</div>
+<div class="faq-answer" tabindex="-1">The guided Bridge VR setup can be re-run at any time via the ‘Configure Bridge in VR’ button on the Settings tab of this Bridge desktop app.</div>
+
+<div class="faq-question" tabindex="-1">How can I pair my HTC Vive Tracker to track my keyboard?</div>
+<div class="faq-answer" tabindex="-1">
+	<ul style="margin-left:-15pt;">
+		<li>First your Vive Tracker must be paired with your HTC Vive system (SteamVR beta Menu > Devices > Pair Controller).</li><br/>
+		<li>Next, in the Bridge desktop application, go to the Pair Vive Tracker tab, and once your tracker appears on the list, click on Pair New + and shake the desired tracker for a few seconds.</li><br/>
+	</ul>
+</div>
+
+<div class="faq-question" tabindex="-1">My tracker is not appearing on the list.</div>
+<div class="faq-answer" tabindex="-1">Make sure it is already paired with SteamVR (SteamVR beta Menu > Devices > Pair Controller): check that it is switched on and the LED is lit GREEN. If your tracker is still not appearing on the list, please contact us.</div>
+
+<div class="faq-question" tabindex="-1">I'm not seeing a keyboard in VR.</div>
+<div class="faq-answer" tabindex="-1">
+	<ul style="margin-left:-15pt;">
+		<li>Check that the Keyboard Visibility Toggle (labelled ‘Enable Keyboard’) in the Bridge app Settings tab is set to ‘On’.</li><br/>
+		<li>If you still cannot see a keyboard, or are seeing an object that doesn’t look like a keyboard, please contact us.</li><br/>
+	</ul>
+</div>
+
+<div class="faq-question" tabindex="-1">I’ve completed the Bridge VR Setup, and I’m still not getting a clear image of my hands.</div>
+<div class="faq-answer" tabindex="-1">As far as possible, we recommend using Bridge in uniform lighting conditions. We advise against harsh lights or light at unusual angles, as reflections and glare negatively affect the experience. From our research, when used in ideal lighting conditions, there should always be a clear hand image, but in non-ideal lighting conditions, a low contrast between keyboard color and hand skin tone can result in a poor experience. We are aware of this, and it’s the primary issue that we are working to solve today: experimenting with different lighting, differently colored keyboards (we’ve been experimenting with blue prototype G810s!), matt finishes and more.</div>
+
+<div class="faq-question" tabindex="-1">I can see colored dots (‘noise’), the same color as my virtual hands, on my virtual keyboard.</div>
+<div class="faq-answer" tabindex="-1">This can happen as we use luminance and color space to filter your real hands as separate from your real keyboard. Adjust the Hand Visibility slider in Settings.</div>
+
+<div class="faq-question" tabindex="-1">My hands are not aligned with the virtual keyboard.</div>
+<div class="faq-answer" tabindex="-1">On your Bridge VR keyboard, hold the ALIGN key to bring you into Alignment mode. The goal is to use your mouse to align your real keyboard, viewed through the camera-feed, with the blue key outlines. For more information, check out the Controls section of the Settings tab.</div>
+
+<div class="faq-question" tabindex="-1">My keyboard “swims” - what can I do?</div>
+<div class="faq-answer" tabindex="-1">When you move your head, the keyboard and hands may appear to swim or move in front of you in the virtual space. This is due to a delay between the acquisition of the pose of the keyboard from the tracker and the rendering of both layers (keyboard and hands) in our engine. We realise it can be somewhat disconcerting for some people, and we’re working on improving this for the next release.</div>
